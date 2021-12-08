@@ -1,26 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 
-namespace CSharp_PhoneBook_Project
+namespace CSharp_PhoneBook_Project_with_Database
 {
+    
     class Program
     {
         static void Main(string[] args)
-        {    
-            //Let's create 5 contacts by deafult and add them to the directory after the program starts.
-            Contact DeafultContact1 = new Contact("Abdi", "Ali", "5548968595" );
-            Contact DeafultContact2 = new Contact("Maxamed", "Osman", "5214789656");
-            Contact DeafultContact3 = new Contact("Cigaal", "Shidaad", "5789654283");
-            Contact DeafultContact4 = new Contact("Xaawo", "Dhagdheer", "5531517496");
-            Contact DeafultContact5 = new Contact("Dayax", "Geedi", "5524951260");
-            PhoneBook.AddContact(DeafultContact1);
-            PhoneBook.AddContact(DeafultContact2);
-            PhoneBook.AddContact(DeafultContact3);
-            PhoneBook.AddContact(DeafultContact4);
-            PhoneBook.AddContact(DeafultContact5);
-
-            
-
+        {
 
             while (true)
             {
@@ -43,8 +29,8 @@ namespace CSharp_PhoneBook_Project
                         Console.WriteLine("Please enter surname: ");
                         string surname = Console.ReadLine();
                         Console.WriteLine("Please enter phone number: ");
-                        string phonenumber = GetPhoneNumber();
-                        Contact newContact = new Contact(name, surname, phonenumber);
+                        string phoneNumber = GetPhoneNumber();
+                        Contact newContact = new Contact {Name=name, Surname=surname, PhoneNumber=phoneNumber };
                         CreateNewContact.AddNewContact(newContact);
                         Console.WriteLine("*******Contact was Added successfully*********\n");
                     }
@@ -98,10 +84,10 @@ namespace CSharp_PhoneBook_Project
                             Console.WriteLine("Please enter updated name: ");
                             string updatedName = Console.ReadLine();
                             Console.WriteLine("Please enter updated surname: ");
-                            string updatedNurname = Console.ReadLine();
+                            string updatedSurname = Console.ReadLine();
                             Console.WriteLine("Please enter updated phone number: ");
                             string updatedPhonenumber = GetPhoneNumber();
-                            Contact updatedContact = new Contact(updatedName, updatedNurname, updatedPhonenumber);
+                            Contact updatedContact = new Contact { Name = updatedName, Surname = updatedSurname, PhoneNumber = updatedPhonenumber };
 
                             UpdateContact updateContact = new();
                             if (updateContact.UpdatePassedContact(contact_to_be_updated, updatedContact) == "successfull")
@@ -200,4 +186,5 @@ namespace CSharp_PhoneBook_Project
 
         }
     }
+
 }

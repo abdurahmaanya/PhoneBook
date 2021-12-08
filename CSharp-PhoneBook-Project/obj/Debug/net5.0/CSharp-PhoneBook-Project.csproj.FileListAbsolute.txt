@@ -5,7 +5,6 @@ C:\Users\stajyer\source\repos\CSharp-PhoneBook-Project\CSharp-PhoneBook-Project\
 C:\Users\stajyer\source\repos\CSharp-PhoneBook-Project\CSharp-PhoneBook-Project\bin\Debug\net5.0\CSharp-PhoneBook-Project.dll
 C:\Users\stajyer\source\repos\CSharp-PhoneBook-Project\CSharp-PhoneBook-Project\bin\Debug\net5.0\ref\CSharp-PhoneBook-Project.dll
 C:\Users\stajyer\source\repos\CSharp-PhoneBook-Project\CSharp-PhoneBook-Project\bin\Debug\net5.0\CSharp-PhoneBook-Project.pdb
-C:\Users\stajyer\source\repos\CSharp-PhoneBook-Project\CSharp-PhoneBook-Project\obj\Debug\net5.0\CSharp-PhoneBook-Project.csproj.AssemblyReference.cache
 C:\Users\stajyer\source\repos\CSharp-PhoneBook-Project\CSharp-PhoneBook-Project\obj\Debug\net5.0\CSharp-PhoneBook-Project.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\stajyer\source\repos\CSharp-PhoneBook-Project\CSharp-PhoneBook-Project\obj\Debug\net5.0\CSharp-PhoneBook-Project.AssemblyInfoInputs.cache
 C:\Users\stajyer\source\repos\CSharp-PhoneBook-Project\CSharp-PhoneBook-Project\obj\Debug\net5.0\CSharp-PhoneBook-Project.AssemblyInfo.cs
