@@ -1,5 +1,5 @@
 # PhoneBook-Project
-This is a telephone directory application. It can help you keep ypur contacts organized.
+This is a telephone directory console application. It can help you keep ypur contacts organized.
 
 It contains the following features:
 * Add Contact: save a new contact.
